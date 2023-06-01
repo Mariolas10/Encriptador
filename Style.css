@@ -1,0 +1,165 @@
+body{
+    background: #022a4d;
+}
+
+.encabezado{
+    padding: 120px;
+    background: url(Imagenes/programacion.jpg);
+    width: 1100px;
+}
+
+.titulo{
+    color: red;
+    position: absolute;
+    display: inline-block;
+    top: 105px;
+    font-size: 40px;
+    left: 460px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+    display: block;
+}
+
+/*Espacio de los textArea*/
+.mensaje{
+    font-size: 20px;
+    font-style: oblique;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    top: 300px;
+    left: 240px;
+    margin: 20px 0;
+    box-shadow: 8px 3px 6px black;
+}
+
+.mensaje-encriptado{
+    font-size: 20px;
+    font-style: oblique;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    top: 300px;
+    right: 240px;
+    margin: 20px 0;
+    box-shadow: 8px 3px 6px black;
+}
+
+/*Espacio de los botones*/
+.btn-encriptador{
+    display: inline;
+    left: 575px;
+    position: absolute;
+    top: 53%;
+}
+
+.boton{
+    height: 2.5rem;
+    display: inline-block;
+    width: 200px;
+    margin: 20px 0 20px 0;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.btn-desencriptar{
+    display: inline;
+    left: 575px;
+    position: absolute;
+    top: 63%;
+}
+
+#desencriptar-btn{
+    height: 2.5rem;
+    display: inline-block;
+    width: 200px;
+    margin: 20px 0 20px 0;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.btn-copiar{
+    display: inline;
+    left: 575px;
+    position: absolute;
+    top: 73%;
+}
+
+#copiar-btn{
+    height: 2.5rem;
+    display: inline-block;
+    width: 200px;
+    margin: 20px 0 20px 0;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.boton:hover{
+    background-color: #022a4d;
+    border: 2px solid var(--border);
+    transition: 1s all;
+    text-transform: uppercase;
+    overflow: hidden;
+    -webkit-text-fill-color: white;
+}
+
+/*Parte final de la pagina*/
+footer{
+    text-align: center;
+    padding: 70px;
+    position: relative;
+    top: 350px;
+}
+
+nav{
+    position: relative;
+    top: 0;
+    right: 8%;
+    left: 0.1px;
+    width: 100%;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    align-items: center;
+    top: 100px;
+}
+
+nav a:hover{
+    opacity: 0.6;
+    transform: scale(1.1);
+}
+
+#caja{
+    margin: 0 auto;
+    width: 940px;
+    position: relative;
+}
+
+/*Parte del area de contacto*/
+.link{
+    width: 12%;
+    position: relative;
+    top: 0;
+    margin: 10px;
+    padding: 10px;
+}
+
+.copyright{
+    color: white;
+    background-color: #000000;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
